@@ -52,4 +52,4 @@ def test_stats_invalid_input(client):
 def test_failing_calculation(client):
     response = client.get('/calculate/10/2')
     assert response.status_code == 200
-    assert response.json['sum'] == 15, "Sum should be 12, test will fail" 
+    assert response.json['sum'] == 12, "Sum should be 12, test will fail" 
