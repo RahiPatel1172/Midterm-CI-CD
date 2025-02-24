@@ -92,8 +92,8 @@ Body: {"numbers": [100], "base": 10}
 
 1. Clone the repository:
 ```
-git clone <repository-url>
-cd <repository-name>
+git clone <git@github.com:RahiPatel1172/Midterm-CI-CD.git>
+cd <Midterm>
 ```
 
 2. Create and activate virtual environment:
